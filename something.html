@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background: url('https://img.freepik.com/free-photo/3d-background-with-globe-programming-code_1048-5911.jpg?ga=GA1.1.879774135.1740807350&semt=ais_hybrid') no-repeat center center/cover;
+            color: #fff;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        header p {
+            font-size: 1.5rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .navbar {
+            background-color: #343a40 !important;
+        }
+        .navbar-brand, .nav-link {
+            color: #fff !important;
+        }
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 30px;
+            color: #343a40;
+        }
+        .card {
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        .card-img-top {
+            border-radius: 10px 10px 0 0;
+        }
+        .footer {
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .social-links a {
+            color: #fff;
+            margin: 0 10px;
+            font-size: 1.2rem;
+            text-decoration: none;
+        }
+        .social-links a:hover {
+            color: #ff6f61;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="text-center">
+        <h1>Jane Doe</h1>
+        <p>Advertising Professional | Creative Strategist | Brand Storyteller</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#campaigns">Campaigns</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#clients">Clients</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="container my-5">
+        <h2 class="section-title text-center">About Me</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="https://unsplash.com/photos/red-and-white-long-sleeve-shirt-mwa_nzFpnJw" alt="About Me" class="img-fluid rounded">
+            </div>
+            <div class="col-md-6">
+                <p class="lead">Hello! I'm Jane Doe, an advertising professional with over 5 years of experience in creating impactful campaigns that drive brand awareness and engagement. I specialize in creative strategy, digital marketing, and brand storytelling.</p>
+                <p>I have worked with global brands to deliver data-driven solutions that resonate with audiences and achieve measurable results.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container my-5">
+        <h2 class="section-title text-center">Skills</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center p-4">
+                    <h3>Creative Strategy</h3>
+                    <p>Developing innovative strategies to elevate brand presence.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center p-4">
+                    <h3>Digital Advertising</h3>
+                    <p>Executing targeted campaigns across digital platforms.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center p-4">
+                    <h3>Brand Development</h3>
+                    <p>Building strong, recognizable brands that connect with audiences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Campaigns Section -->
+    <section id="campaigns" class="container my-5">
+        <h2 class="section-title text-center">Campaigns</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" alt="Campaign 1" class="card-img-top">
+                    <div class="card-body">
+                        <h3>Global Tech Brand</h3>
+                        <p>Increased brand engagement by 40% through a multi-channel campaign.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" alt="Campaign 2" class="card-img-top">
+                    <div class="card-body">
+                        <h3>Fashion Retailer</h3>
+                        <p>Boosted sales by 25% with a targeted social media strategy.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" alt="Campaign 3" class="card-img-top">
+                    <div class="card-body">
+                        <h3>Health & Wellness</h3>
+                        <p>Launched a successful influencer campaign driving 50% more traffic.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section id="clients" class="container my-5">
+        <h2 class="section-title text-center">Clients</h2>
+        <div class="row text-center">
+            <div class="col-md-3"><h3>Global Tech Co.</h3></div>
+            <div class="col-md-3"><h3>Fashion Retailer X</h3></div>
+            <div class="col-md-3"><h3>Health & Wellness</h3></div>
+            <div class="col-md-3"><h3>Startup Y</h3></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container my-5">
+        <h2 class="section-title text-center">Contact</h2>
+        <div class="row">
+            <div class="col-md-6 mx-auto text-center">
+                <p class="lead">Let's create something amazing together! Reach out to me:</p>
+                <p>Email: <a href="mailto:jane.doe@example.com">jane.doe@example.com</a></p>
+                <div class="social-links">
+                    <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                    <a href="https://twitter.com" target="_blank">Twitter</a>
+                    <a href="https://behance.net" target="_blank">Behance</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2023 Jane Doe. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
